@@ -38,7 +38,7 @@
             $this->password = getenv('PASSWORD');
             $this->dbname = getenv('DBNAME');
             $this->host = getenv('HOST');
-            $this->port = getenv('PORT');
+            //$this->port = getenv('PORT');
         }
 
         public function connect(){
